@@ -1,0 +1,67 @@
+/*
+ * Asiakkaat-taulukkosivun tyylimäärittelyt
+ */
+
+body {
+        margin-top: 50px;
+        margin-left: 50px;
+}
+
+#Asiakkaat {
+        font-family: Helvetica, Arial, sans-serif;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #A4CFCB;
+        border-collapse: collapse;
+        padding: 5px;
+}
+
+table#Asiakkaat th {
+        font-size: 1.2em;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #A4CFCB;
+        background-color: #95AFAA;
+        color: #F8F5E5;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+
+table#Asiakkaat td {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #A4CFCB;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+}
+
+table#Asiakkaat tr:nth-child(even) {
+        background-color: #FCFCED;
+}
+table#Asiakkaat tr:nth-child(odd) {
+        background-color: #E4ECEB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
