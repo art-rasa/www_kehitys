@@ -1,0 +1,144 @@
+/***
+ html-sivujen tyylit 
+ ***/
+
+/* Asiakirjan vartalo */
+body {  
+        text-align: center;
+        background-color: #f0f0ee;
+        /*font-family: sans-serif;*/
+        font-family: helvetica, arial, sans-serif;
+        
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+/* Otsikkoteksti */
+h1 {  
+        text-align: center;
+        font-family: sans-serif;
+        color: DarkSlateGray;
+}
+
+/* Aliotsikkoteksti */
+h2 {  
+        text-align: center;
+        font-family: sans-serif;
+        color: SlateGray;
+}
+
+/* Aliotsikkoteksti, uusi tyyli 2018-06-13 */
+.subheader {  
+        text-align: left;
+        font-family: sans-serif;
+        color: #e6e6e6;
+        
+        background-color: #5a6a70;
+        
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        
+        margin-left: 15px;
+        margin-right: 15px;
+}
+
+/* Tekstikappale */
+p {  
+        text-align: left;
+        font-family: sans-serif;
+        
+        margin-left: 15px;
+        margin-right: 15px;
+}
+
+/* Ei-vierailtu linkki */
+a:link {  
+        color: brown;
+        text-decoration: none;
+}
+
+/* Vierailtu linkki */
+a:visited  {  
+        color: darkgray;
+        text-decoration: none;
+}
+
+/* Hiiren osoitin linkin päällä */
+a:hover {  
+        color: red;
+        text-decoration: underline;
+}
+
+/* Hiiren painike pohjassa linkin päällä */
+a:active {  
+        color: yellow;
+        text-decoration: underline;
+}
+
+/* Ei-järjestetty luettelo */
+ul {  
+        text-align: left;
+}
+
+/* Osoitetieto */
+address {  
+        font-family: serif;
+        font-style: oblique;
+}
+
+/* Otsikkopalkki */
+.banner {  
+        text-align: center;
+        
+        /*background-color: #85a5ad;*/
+        background-color: lightslategray;
+        
+        /* Tekstin välistys */
+        padding: 25px;
+        
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+        /* tekstin väri */
+        color: #f0f0ee;
+}
+
+/* Navigoinnin linkit */
+.nav {  
+        background-color: #5a6a70;
+        
+        /* Tyhjää elementin ylä- ja alapuolelle */
+        padding: 15px;
+        
+        margin-top: 0px;
+        
+        text-align: center;
+        
+        font-size: 8px;
+        
+        /* Tekstin väri */
+        color: #e6e6e6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
