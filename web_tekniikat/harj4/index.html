@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+<!-- Merkistökoodauksen asetus -->
+<meta charset="UTF-8"/>
+
+<!-- Sivun otsikkopalkin teksti -->
+<title>Web-tekniikat, harjoitus 4</title>
+
+<!-- Erillisen tyylitiedoston määrittely, linkitys -->
+<link rel="stylesheet" type="text/css" href="styles/layout.css">
+
+</head>
+
+<body>
+
+<div id="page">
+
+        <div id="header">
+                <div id="header_logo">
+                <p class="header_teksti">Tänne tulee logo tekstinä</p>
+                </div>
+                
+                <div id="header_center">
+                <p class="header_teksti">Tänne tulee keskiosa tekstinä</p>
+                </div>
+                
+                <div id="header_right">
+                <p class="header_teksti">Tänne tulee oikea osa tekstinä</p>
+                </div>
+        </div> <!-- header -->
+        
+        <div id="menu">
+                <p class="menu_teksti"><a href="#etusivu">Etusivu</a> |  <a href="#harrastukset">Harrastukset</a> | <a href="#portfolio">Portfolio</a></p>
+        </div>
+        
+        <div id="content">
+                
+                <div id="content_left">
+                <p class="content_teksti">Cascading Style Sheets (lyh[1]. CSS, kirjaimellisesti ”porrastetut tyyliarkit”) on erityisesti WWW-dokumenteille kehitetty tyyliohjeiden laji. CSS:ssä dokumentille voi määritellä useita tyyliohjeita, jotka yhdistetään tietyllä tavalla yhdeksi säännöstöksi. CSS-tiedostojen pääte on yleensä .css.</p>
+                <p class="content_teksti">CSS:llä annetut säännöt ehdottavat, kuinka dokumentti voidaan esittää. Säännöt eivät siis ole ehdottomia, vaan ne voi halutessaan kiertää. Jotkin säännöt saattavat korvautua toisten tyyliohjeiden vastaavilla säännöillä. Esimerkiksi dokumentissa annetut ohjeet ovat yleensä toissijaisia dokumentin vastaanottajan ohjeisiin verrattuna.</p>
+                <p class="content_teksti">CSS:llä voidaan kuvata monipuolisesti näkyvää esitysmuotoa, periaatteessa myös kuultavaa esitystapaa. Äänisyntetisaattoreita varten on määritelty muun muassa äänen korkeutta, painotusta ja äänenväriä sääteleviä ominaisuuksia, joskin ne on toteutettu varsin suppeasti. Visuaalisen esitystavan perusta on niin sanottu laatikkomalli (box-model). Jokainen dokumentin elementti käsitetään mallissa laatikoksi, joka sijoitetaan ympäröivän elementin laatikon sisään muiden saman tason elementtien vierelle. Elementti voi kuitenkin tuottaa myös useita laatikoita. Kullakin elementillä on neljä sisäkkäistä laatikkoa, joista uloin on marginaali eli reunus; sen sisällä on reunaviiva tai -kuvio, joka rajoittuu sisäpuolelta sisältöä ympäröivään täytteeseen. Sisältölaatikossa on kuvattavan elementin sisältö.</p>
+                </div>
+                
+                <div id="content_right">
+                <p class="content_teksti"><a href="http://www.personal.psu.edu/jhm/f90/homework/hw8.html" target="_blank">Homework 8:</a></p>
+                <p class="content_teksti">You did such a great job with your ballistic trajectory program, that your former boss is willing to hire you as a consultant to upgrade the work. Then again, maybe you were confused with another ex-employee, but the money is good, so you're taking a shot at it.</p>
+                <p class="content_teksti">The real valued function must be named again named "dist", but this time it takes 3 real arguments. The first argument is the angle of inclination of a cannon's barrel from horizontal, in radians. The second argument is the cannon's muzzle velocity in meters per second. The third is the name of an array containing coefficients for a cubic fit to the ground elevation relative to the cannon.</p>
+                <p class="content_teksti">The value returned by the function is the range of the cannon shell (in meters) subject to the following assumptions:</p>
+                <ul class="content_teksti">
+                        <li>Air Friction is ignored;</li>
+                        <li>Length of the cannon barrel is ignored;</li>
+                        <li>The value of gravitational acceleration g = 9.807 m/s<sup>2</sup>.</li>
+                        <li>The elevation of the terrain relative to your elevation can be approximated out to 10,000 meters as:</li>
+                </ul>
+                <p class="content_teksti">elevation = c(1)*x + c(2)*x**2 + c(3)*x**3</p>
+                <p class="content_teksti">where x is the distance from the cannon along a flat line at the cannon's elevation, and "c" is the array passed as the third dummy argument.</p>
+                </div>
+        
+        </div> <!-- content -->
+        
+        <div id="footer">
+        <p class="footer_teksti">Tänne sitten footer-tekstit</p>
+        
+        </div>
+        
+</div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

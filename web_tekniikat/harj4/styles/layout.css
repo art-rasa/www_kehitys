@@ -1,0 +1,194 @@
+/*
+ * 2018-06-22 Arttu Räsänen
+ * Harjoitus 4, tyylimäärittelyt
+ */
+
+
+/* Yleiset määrittelyt */
+body {
+        background-color: beige;
+        
+        font-family: "verdana";
+        text-align: left;
+        
+        margin: 0px;
+}
+
+/* Linkit */
+a:link {
+        color: linen;
+        text-decoration: none;
+}
+a:visited {
+        color: gray;
+        text-decoration: none;
+}
+a:hover {
+        color: white;
+        text-decoration: underline;
+}
+a:active {
+        color: red;
+        text-decoration: underline;
+}
+
+
+/********************************
+ * Sivun osat sisältävä laatikko 
+ ********************************/
+#page {
+        width: 960px;
+        
+        /* Sivun laatikon keskitys näkymään: */
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+/****************
+ * Otsikkopalkki 
+ ****************/
+/* Otsikkopalkin laatikko */
+#header {
+        width: 960px;
+        height: 80px;
+        
+        background-color: blanchedalmond;
+}
+
+/* Otsikkopalkin alilaatikot. 3 kpl vieretysten. */
+#header_logo {
+        width: 319px;
+        height: 78px;
+        background-color: #777777;
+        
+        border-top: 1px dashed black;
+        border-left: 1px dashed black;
+        border-bottom: 1px dashed black;
+        
+        float: left;
+        margin: 0px;
+}
+
+#header_center {
+        width: 318px;
+        height: 78px;
+        background-color: #888888;
+        border: 1px dashed black;
+        float: left;
+        margin: 0px;
+}
+
+#header_right {
+        width: 319px;
+        height: 78px;
+        background-color: #999999;
+        /*border: 1px dashed black;*/
+        border-top: 1px dashed black;
+        border-right: 1px dashed black;
+        border-bottom: 1px dashed black;
+        float: left;
+        margin: 0px;
+}
+
+.header_teksti {
+        margin: 20px;
+        color: linen;
+        text-align: center;
+}
+
+
+/*******************
+ * Navigointipalkki
+ *******************/
+#menu {
+        /* katkaistaan float-määritys jotta tämä tulisi otsikkolaatikon alle. */
+        clear: both;
+        
+        width: 960px;
+        height: 30px;
+        
+        float: left;
+        
+        background-color: black;
+}
+
+.menu_teksti {
+        text-align: center;
+        margin: 6px;
+        color: linen;
+}
+
+
+/**********
+ * Sisältö
+ **********/
+#content {
+        width: 960px;
+        height: 600px;
+        background-color: darkgray;
+}
+
+#content_left, #content_right {
+        float: left;
+        
+        width: 436px;
+        height: 450px;
+        
+        margin: 20px;
+        background-color: lightgray;
+        
+        border: 2px solid slategray;
+        border-radius: 5px;
+}
+
+.content_teksti {
+        text-align: left;
+        margin: 10px;
+        color: black;
+}
+
+
+/************
+ * Alapalkki
+ ************/
+#footer {
+        width: 960px;
+        height: 30px;
+        
+        margin: 0px;
+        padding: 0px;
+        
+        background-color: dimgray;
+}
+
+.footer_teksti {
+        text-align: center;
+        color: linen;
+        margin: 0px;
+        padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
