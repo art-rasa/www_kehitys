@@ -9,6 +9,7 @@ body {
         font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Verdana", "sans-serif";
         font-size: 100%;
         
+        text-align: center;
 }
 
 
@@ -18,14 +19,14 @@ body {
         /* Marginaalit ikkunan koon mukaan */
         margin-left: auto;
         margin-right: auto;
+        
+        
 }
 
 
 #header {
         /* Ylhäälle/alhaalle hieman tyhjää */
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        
+        padding: 0.5em;
         margin: 0em;
         
         /* Värit */
@@ -39,14 +40,105 @@ body {
 
 
 #nav, #footer {
-        height: 1.875em;
+        height: 1.625em;
         background-color: #e39a2f;
         color: #f7f5ee;
         text-align: center;
         
-        
-        margin-top: -1em;
-        /*height: 1em;*/
+        /* Navigointilaatikko kiinni otsikkopalkkiin, 
+         * tekstin korkeussäätö */
+        margin: 0em;
+        padding-top: 0.25em;
         
 }
+
+
+/* Tekstisisältöjen yhteinen laatikko */
+#content {
+        background-color: #d8ccaf;
+}
+
+/* Varsinaiset tekstisisältö-divit  */
+#content_left , #content_right {
+        background-color: #f7f5ee;
+        width: 42%;
+        
+        border: solid 1px #ac9675;
+        border-radius: 10px;
+        
+        display: inline-block;
+        
+        /* välistykset */
+        margin: 1.875em 0.9375em;
+        padding: 0.5em 1.75em;
+        
+        overflow: hidden;
+        
+        /* laatikoiden tasaus yläreunojen mukaan */
+        vertical-align: top;
+}
+
+
+/* Tekstisisällön tasaus vasemmalle */
+.content_text {
+        text-align: left;
+}
+
+
+
+/* Määritykset navigointilinkkilistalle, lähde:
+ * https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_float_advanced 
+ */
+ul.navbar_horizontal {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #e39a2f;
+        
+        text-align: center;
+}
+
+li.navbar_item {
+        float: left;
+        
+}
+
+li.navbar_item  a {
+        display: inline;
+        color: white;
+        text-align: center;
+        /*padding: 14px 16px;*/
+        text-decoration: none;
+
+        padding-top: 0em;
+        padding-bottom: 0em;
+        padding-left: 5em;
+        padding-right: 5em;
+        margin-top: 0px;
+margin-bottom: 0px;
+}
+
+a:hover:not(.active) {
+        background-color: lightgray;
+}
+
+.active {
+        background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
